@@ -1,9 +1,10 @@
 {
   "name": "white-log4js",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
-  "main": "log.ts",
+  "main": "log.js",
   "scripts": {
+    "prepublish": "tsc ./*.ts"
   },
   "repository": {
     "type": "git",
