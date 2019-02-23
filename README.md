@@ -1,4 +1,4 @@
-# white-log4js
+# log4js - rewrite console.(log|warn|debug|error)
 
 ## TLDR
 
