@@ -1,21 +1,20 @@
 {
   "name": "white-log4js",
-  "version": "1.0.0",
+  "version": "1",
   "description": "",
-  "main": "index.js",
+  "main": "log.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/buhe/white-log4js.git"
+    "url": "git+https://github.com/duty-os/white-log4js.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/buhe/white-log4js/issues"
+    "url": "https://github.com/duty-os/white-log4js/issues"
   },
-  "homepage": "https://github.com/buhe/white-log4js#readme",
+  "homepage": "https://github.com/duty-os/white-log4js#readme",
   "devDependencies": {
     "typescript": "^3.3.3333"
   },
