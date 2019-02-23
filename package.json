@@ -1,0 +1,26 @@
+{
+  "name": "white-log4js",
+  "version": "2.0.0",
+  "description": "",
+  "main": "log.js",
+  "scripts": {
+    "prepublish": "tsc ./*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duty-os/white-log4js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duty-os/white-log4js/issues"
+  },
+  "homepage": "https://github.com/duty-os/white-log4js#readme",
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@types/node": "^11.9.5",
+    "dayjs": "^1.8.6"
+  }
+}
