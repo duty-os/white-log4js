@@ -13,7 +13,12 @@ console.debug = function (message?: any, ...optionalParams: any[]) {
 const error = console.error;
 console.error = function (message?: any, ...optionalParams: any[]) {
     //2019-02-22 19:09:49.281  INFO 61119 --- [  restartedMain] com.herewhite.audio.AudioApplication     : No active profile set, falling back to default profiles: default
-    error(`${dayjs().format('YYYY-MM-DDTHH:mm:ss SSS')} ERROR :`, message, ...optionalParams);
+    if (message instanceof Error) {
+        error(`${dayjs().format('YYYY-MM-DDTHH:mm:ss SSS')} ERROR :`, message, ...optionalParams);
+    } else {
+        error(`${dayjs().format('YYYY-MM-DDTHH:mm:ss SSS')} ERROR : ${message}`, ...optionalParams);
+    }
+
 };
 
 const warn = console.warn;
