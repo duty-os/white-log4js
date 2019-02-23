@@ -1,4 +1,4 @@
-import * as dayjs from "dayjs";
+import dayjs from "dayjs";
 
 const log = console.log;
 console.log = console.info = function (message?: any, ...optionalParams: any[]) {
