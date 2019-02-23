@@ -1,4 +1,17 @@
 # white-log4js
 
+## TLDR
 
-2019-02-22 19:09:49.281  INFO 61119 --- [  restartedMain] com.herewhite.audio.AudioApplication     : No active profile set, falling back to default profiles: default
+```yarn add white-log4j```
+
+add below line before all code.
+
+```import "white-log4js";```
+
+## Simple Usage
+
+console.log("fun");
+
+console.error(new Error("bar"));
+
+More look at log.test.ts
